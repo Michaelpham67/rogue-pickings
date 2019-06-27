@@ -93,12 +93,12 @@ nav {
     float: left;
     font-family: 'Montserrat', sans-serif;
     list-style-type: none;
-    margin-left: 20px;
+    margin-left: 16px;
 
 }
 
 nav ul li a {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
