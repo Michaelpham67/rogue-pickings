@@ -1,0 +1,241 @@
+/* 
+
+MAIN CSS Sheet for Rogue Pickings
+
+Font used
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Allura', cursive;
+
+**Will modify for responsive design** 
+
+*/
+
+/* MAIN ELEMENTS AREA */
+
+
+body {
+    height: auto;
+    overflow: auto;
+    width: auto;
+    
+}
+
+main {
+    background-color: #f1f5ef;
+    
+}
+
+/* HEADER AREA */
+
+header {
+    background-color: #f1f5ef;
+    height: 35%;
+    width: 100%;
+    
+}
+
+header img {
+    border-color: #5a804d;
+    border-style: solid;
+    border-width: 3px 0px 3px 0px;
+    display: block;
+    margin: 0 auto 0 auto;
+    
+}
+
+#header-halfwidth2 ul li a {
+    color: #5a804d;
+    text-decoration: none;
+    
+}
+
+.half-width {
+    margin: 40px;
+    
+}
+
+.first-h1 {
+    color: #5a804d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#header-halfwidth1, #header-halfwidth2 {
+    height: 60px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    padding: 0px 10px 20px 117px;
+    text-align: left;
+    width: 430px;
+    
+}
+
+.header-text-style {
+    font-size: 72px;
+    line-height: 80px;
+    padding: 0px 0px 0px 80px;
+    
+}
+
+nav {
+    height: 60px;
+    padding: 0px 0px 0px 5px;
+    width: 560px
+    
+}
+
+.nav-list-items {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/* ABOUT AREA */
+
+#about {
+    background-color: #f1f5ef;
+    height: 40%;
+    padding: 20px 157px 20px 157px;
+    
+}
+
+#about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 23px;
+    
+}
+
+#about h2 {
+    color: #5a804d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 50px; 
+    
+}
+
+/* THIRDS AREA with the menu, reviews, and contact sections */
+
+#thirds-area {
+    border-bottom: 3px solid #e6e6e6;
+    border-top: 3px solid #e6e6e6;
+    height: 250px;
+    margin: 0px auto 0px auto;
+    width: 1200px;
+    
+}
+
+
+.third-width {
+    float: left;
+    height: 250px;
+    text-align: left;
+    width: 398px
+    
+}
+
+#menu h3 {
+    padding: 10px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+#menu p {
+    color: #5a804d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    
+}
+
+#reviews {
+    border-left: 3px solid #e6e6e6;
+    border-right: 3px solid #e6e6e6;
+    
+}
+
+#reviews h3 {
+    padding: 10px 10px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+#reviews p {
+    padding: 0px 0px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#contact h3 {
+    padding: 10px 10px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+#contact p {
+    padding: 0px 10px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+#contact iframe {
+    left: 230px;
+    position: relative;
+    bottom: 150px;
+    
+}
+
+/* FOOTER AREA */
+
+#footer1 {
+    background-color: #f1f5ef;
+    clear: both;
+    height: 5.4em;
+    padding: 20px 0px 0px 0px;
+    
+}
+
+#footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.cursive-green {
+    font-family: 'Allura', cursive;
+    font-size: 22px;
+    
+}
+
+/* MISC. AREA */
+
+.arrow-size {
+    padding: 0px 0px 0px 1250px;
+    
+}
