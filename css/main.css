@@ -14,6 +14,10 @@ font-family: 'Allura', cursive;
 
 /* MAIN ELEMENTS AREA */
 
+html {
+    font-size: 16px;
+    
+}
 
 body {
     height: auto;
@@ -22,15 +26,10 @@ body {
     
 }
 
-main {
-    background-color: #f1f5ef;
-    
-}
-
 /* HEADER AREA */
 
 header {
-    background-color: #f1f5ef;
+    background-color: #ffffff;
     height: 35%;
     width: 100%;
     
@@ -46,8 +45,13 @@ header img {
 }
 
 #header-halfwidth2 ul li a {
-    color: #5a804d;
+    color: #269900;
     text-decoration: none;
+    
+}
+
+#header-halfwidth2 ul li a:hover{
+    color: #5ee830;
     
 }
 
@@ -57,7 +61,7 @@ header img {
 }
 
 .first-h1 {
-    color: #5a804d;
+    color: #4d9933;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bolder;
@@ -109,7 +113,6 @@ nav ul li a {
 /* ABOUT AREA */
 
 #about {
-    background-color: #f1f5ef;
     height: 40%;
     padding: 20px 157px 20px 157px;
     
@@ -124,7 +127,7 @@ nav ul li a {
 }
 
 #about h2 {
-    color: #5a804d;
+    color: #4d9933;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 50px; 
@@ -134,8 +137,8 @@ nav ul li a {
 /* THIRDS AREA with the menu, reviews, and contact sections */
 
 #thirds-area {
-    border-bottom: 3px solid #e6e6e6;
-    border-top: 3px solid #e6e6e6;
+    border-bottom: 3px solid #d9d9d9;
+    border-top: 3px solid #d9d9d9;
     height: 250px;
     margin: 0px auto 0px auto;
     width: 1200px;
@@ -152,7 +155,7 @@ nav ul li a {
 }
 
 #menu h3 {
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -160,7 +163,7 @@ nav ul li a {
 }
 
 #menu p {
-    color: #5a804d;
+    color: #47a329;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 40px;
@@ -168,13 +171,13 @@ nav ul li a {
 }
 
 #reviews {
-    border-left: 3px solid #e6e6e6;
-    border-right: 3px solid #e6e6e6;
+    border-left: 3px solid #d9d9d9;
+    border-right: 3px solid #d9d9d9;
     
 }
 
 #reviews h3 {
-    padding: 10px 10px 0px 25px;
+    padding: 10px 10px 0 25px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -182,14 +185,14 @@ nav ul li a {
 }
 
 #reviews p {
-    padding: 0px 0px 0px 25px;
+    padding: 0 0 0 25px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 20px;
 }
 
 #contact h3 {
-    padding: 10px 10px 0px 25px;
+    padding: 10px 10px 0 25px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -198,7 +201,7 @@ nav ul li a {
 }
 
 #contact p {
-    padding: 0px 10px 0px 25px;
+    padding: 0 10px 0 25px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 35px;
@@ -214,10 +217,9 @@ nav ul li a {
 /* FOOTER AREA */
 
 #footer1 {
-    background-color: #f1f5ef;
     clear: both;
     height: 5.4em;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0 0 0;
     
 }
 
@@ -237,6 +239,6 @@ nav ul li a {
 /* MISC. AREA */
 
 .arrow-size {
-    padding: 0px 0px 0px 1250px;
+    padding: 0 0 0 1250px;
     
 }
