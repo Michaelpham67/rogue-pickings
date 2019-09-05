@@ -28,7 +28,7 @@ html {
 
 body {
     align-items: center;
-    display: flex;
+    /*display: flex;*/
     flex-flow: column wrap;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 1em; 
@@ -37,10 +37,9 @@ body {
 }
 
 .container{
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
-    /*flex-direction: column;*/
     justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
