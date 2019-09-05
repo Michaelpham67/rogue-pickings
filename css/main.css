@@ -11,6 +11,16 @@ font-family: 'Roboto', sans-serif;
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
 
+@media all and (min-width: 768px) {
+    /* Tablet styles here */
+    
+}
+
+@media all and (min-width: 1200px) {
+    /* Desktop styles here */
+    
+}
+
 html {
     font-size: 16px;
     
@@ -24,17 +34,22 @@ body {
 body {
     align-items: center;
     display: flex;
+    /*flex-flow: column wrap;*/
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
     
 }
 
 .container{
-    align-items: center;
+    align-items: flex-start;
     display: flex;
+    flex-flow: row wrap;
+    /*flex-direction: column;*/
     justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
+    width: 90%;
 }
 
 h1,
@@ -69,9 +84,11 @@ header {
     align-items: center;
     border-bottom: 3px solid #658f56;
     display: flex;
+    flex-flow: column wrap; 
 	height: 110px;
-    justify-content: center; 
+    justify-content: center;
 	margin: 0 auto;
+    width: 90%; 
     
 }
 
@@ -101,6 +118,7 @@ header nav ul li {
 	font-size: 0.875em;
 	padding: 0 10px;
 	display: inline;
+    
 }
 header nav ul li a{
 	text-decoration: none;
@@ -118,8 +136,10 @@ header nav ul li a:hover{
     align-items: center;
     clear: both;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
 	margin: 0 auto;
+    width: 90%; 
     
 }
 
@@ -152,14 +172,23 @@ header nav ul li a:hover{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	/*width: 33%;*/
+    align-items: flex-start;
+    justify-content: flex-start; 
+    width: 100%; 
 	height: auto;
 	float: left;
 	border-top: 1px solid #d9d9d9;
 }
 
 .section-one h4 {
-	padding: 10px 0;
+    font-weight: 700;
+	padding: 10px 30px;
+    
+}
+
+.menu {
+    padding: 10px 30px; 
     
 }
 
@@ -168,29 +197,42 @@ header nav ul li a:hover{
     
 }
 
-.section-two {
-	border-left: 1px solid #d9d9d9;
+.section-two, .section-three {
+    /*border-left: 1px solid #d9d9d9;
 	border-right: 1px solid #d9d9d9;
+    */
 }
 
 .section-two h4,
 .section-three h4 {
+    font-weight: 700;
 	padding: 10px 30px;
     
 }
 
 .section-two p,
 .section-three p {
-	color: #737373;
+	color: #737373; 
+    
+}
+
+.mapiframe{
+    align-content: flex-start; 
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: flex-end;
+    padding: 0 0 5px 0; 
+    margin: 0 auto; 
     
 }
 
 .menu {
 	list-style: none;
 	padding: 0;
+    
 }
 .menu li {
-	padding: 10px 0;
+	padding: 10px 30px;
 	color: #658f56;
 }
 
@@ -211,10 +253,13 @@ footer {
     border-top: 3px solid #d9d9d9;
 	clear: both;
     display: flex;
+    flex-flow: row wrap;
+    font-weight: 800;
 	height: 50px;
     justify-content: center;
 	margin: 0 auto;
 	text-align: center;
+    width: 90%; 
     
 }
 footer span {
