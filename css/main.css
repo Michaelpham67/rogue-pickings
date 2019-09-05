@@ -67,7 +67,7 @@ p {
 /*The widths are in a percentage!*/
 header {
     align-items: center;
-    border-bottom: 3px solid #77a466;
+    border-bottom: 3px solid #658f56;
     display: flex;
 	height: 110px;
     justify-content: center; 
@@ -104,7 +104,7 @@ header nav ul li {
 }
 header nav ul li a{
 	text-decoration: none;
-	color:#77a466;
+	color: #658f56;
 }
 
 header nav ul li a:hover{
@@ -140,7 +140,7 @@ header nav ul li a:hover{
     font-family: 'Montserrat', sans-serif;
 	text-align: left;
 	padding: 5px 0;
-	color: #77a466;
+	color: #658f56;
 }
 .main-title p {
     color: #737373;
@@ -155,7 +155,7 @@ header nav ul li a:hover{
 	width: 33%;
 	height: auto;
 	float: left;
-	border-top: 1px solid #eee;
+	border-top: 1px solid #d9d9d9;
 }
 
 .section-one h4 {
@@ -169,8 +169,8 @@ header nav ul li a:hover{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
 }
 
 .section-two h4,
@@ -191,7 +191,7 @@ header nav ul li a:hover{
 }
 .menu li {
 	padding: 10px 0;
-	color:#77a466;
+	color: #658f56;
 }
 
 .reviews {
@@ -208,7 +208,7 @@ header nav ul li a:hover{
 /*The widths are in a percentage!*/
 footer {
     align-items: center;
-    border-top: 3px solid #eee;
+    border-top: 3px solid #d9d9d9;
 	clear: both;
     display: flex;
 	height: 50px;
