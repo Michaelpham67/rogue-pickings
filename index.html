@@ -1,95 +1,72 @@
 <!doctype html>
-<!--
-Rogue Pickings Project
-Michael Pham
-SkillCrush 
-
-**modify HTML comments**
-
--->
-
-<html lang="en">
-    
-<!--
-head tag containing the title, favicon, external style sheets, and google fonts -->
-    
+<html>
     <head>
         <meta charset="utf-8">
-        <title>Rogue Pickings | Portfolio</title>
-            <link rel="shortcut icon" type="image/png" href="img/favicon-leaf.jpg"/>
-            <link rel="stylesheet" type="text/css" href="css/main.css">
-            <link rel="stylesheet" type="text/css" href="css/normalize.css">
-            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">   
-            <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
-    </head> 
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Rogue Pickings | Brush Up Those Skills!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    </head>
     <body>
-        
-<!--
-header section containing the header title and nav bar -->
-        
-         <header>
-            <div>
-                <div class ="half-width" id="header-halfwidth1">
-                    <h1 class="first-h1">ROGUE <span style="color: black">PICKINGS</span></h1>
-                </div>
-                <div class ="half-width" id="header-halfwidth2">
-                    <nav>
-                        <ul class="nav-list-items">
-                            <li class="nav-list-items"><a href="#about">ABOUT</a></li>
-                            <li class="nav-list-items"><a href="#menu">MENU</a></li>
-                            <li class="nav-list-items"><a href="#locations">LOCATIONS</a></li>
-                            <li class="nav-list-items"><a href="#gallery">GALLERY</a></li>
-                            <li class="nav-list-items"><a href="#reviews">REVIEWS</a></li>
-                            <li class="nav-list-items"><a href="#contact">CONTACT</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <img src ="img/hero-wallpaper.png" alt="Wallpaper"/>
-            </div>
-        </header>
-        
-<!--
-main tag containing the about, menu, reviews, and contact sections -->    
-        <main>
-            
-            <section id="about">
-                <div>
-                    <h2>WELCOME TO OUR LITTLE CORNER OF THE INTERNET!</h2>
-                    <p>Welcome to Rogue Pickings, the roaming truck brigning you the freshest ingredients and ideas in food. Our team works hard so you can be sure<br> our ingredients are always fresh and picked carefully. Our menu changes every day and is made with you in mind. We can't wait to come to you!<br> Check out our locations to see where you can find us.</p>
+        <div class="container">
+            <header>
+                <h1><span>rogue</span> pickings</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Menu</a>
+                        </li>
+                        <li>
+                            <a href="">Locations</a>
+                        </li>
+                        <li>
+                            <a href="">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="top-section">
+                <div class="main-image"><img src="img/hero-wallpaper.png" alt="green beans" /></div>
+                <div class="main-title">
+                    <h3>Welcome to our little corner of the internet!</h3>
+                    <p>Welcome to Rogue Pickings, the roaming truck bringing you the freshest ingredients and ideas in food. Our team works hard so you can be sure our ingredients are always fresh and picked carefully. Our menu changes every day and is made with you in mind. We can't wait to come to you! Check out our locations to see where you can find us.</p>
                 </div>
             </section>
-            
-<!-- The "reviews" section div tag (3rd section of the page) that includes the HTML, CSS, and converting designs into code icons and info -->
-            
-            <section id="thirds-area">
-                
-                    <div class ="third-width" id="menu">
-                        <h3>TODAY'S SPECIALS</h3>
-                        <p>Flaming Humus &amp; Falafel Salad<br>
-                        Sizziling Bean Burrito<br>
-                        Green Gloves Tamles</p>
-                    </div>
-                    <div class ="third-width" id="reviews">
-                        <h3>OUR AWESOME REVIEWS</h3>
-                        <p>"I got so excited about the yumminess of<br>the falafel salad that I am typing this<br> review as I inhale my lunch. Yes it is that<br>good...Service was super friendly and<br>quick. Can't wait to see you at Rogue Pickings<br>again tomorrow!"</p>
-                    </div>
-                    <div class ="third-width" id="contact">
-                        <h3>CONTACT US</h3>
-                        <p>1001 Potrero Avenue<br>San Francisco, CA 94110<br>(415) 206-8000</p>
-                        
-                        <!-- Embedded Google Maps Here -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.4830040257953!2d-122.40862558482635!3d37.75527137976294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e4a51d1d7a5%3A0x9ae93945332a44f8!2s1001+Potrero+Ave%2C+San+Francisco%2C+CA+94110!5e0!3m2!1sen!2sus!4v1561498093211!5m2!1sen!2sus" width="170" height="170" style="border:0" allowfullscreen></iframe>
-                        
-                    </div>
-                    <!-- Up arrow icon that re-directs to the top of the page -->
-                    <a href="#" title="Go to top of page"><img src="img/top-icon-active.png" class="arrow-size" alt="Top Page Icon" width="30" height="30"></a>
+            <section class="bottom-section">
+                <div class="section-one">
+                    <h4>Today's Specials</h4>
+                    <ul class="menu">
+                        <li>Flaming Hummus &amp; Falafel Salad</li>
+                        <li>Sizzling Bean Burrito</li>
+                        <li>Green Gloves Tamales</li>
+                    </ul>
+                </div>
+                <div class="section-two">
+                    <h4>Our Awesome Reviews</h4>
+                    <p class="reviews">"I got so excited about the yumminess of the falafel salad that I am typing this review as I inhale my lunch. Yes it is that good.... Service was super friendly and quick. Can't wait see you Rogue Pickings again tomorrow!"</p>
+                </div>
+                <div class="section-three"><h4>Contact</h4>
+                    <p class="address">1001 Potrero Avenue<br>
+                        San Francisco, CA 94110<br>
+                        (415) 206-8000 </p>
+                </div>
             </section>
-        </main>
-        
-        <!-- The Footer div tag (4th section of the page) that contains the footer info -->
-        <footer id="footer1">
-                <h3 id="footer-text">powered by lots of <span class="cursive-green" style="color: 
-                #68c247">fresh</span> ingredients</h3>
-        </footer>
+            <footer>
+                <h4>Powered by lots of <span>fresh</span> ingredients.</h4>
+            </footer>
+        </div>
     </body>
 </html>

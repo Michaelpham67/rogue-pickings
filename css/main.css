@@ -1,18 +1,15 @@
-/* 
+/*
 
-MAIN CSS Sheet for Rogue Pickings
-
-Font used
-
+font-family: 'Lato', sans-serif
 font-family: 'Montserrat', sans-serif;
-font-family: 'Allura', cursive;
-
-**Will modify for responsive design** 
-**Revise CSS comments too** 
+font-family: 'Roboto', sans-serif;
 
 */
 
-/* MAIN ELEMENTS AREA */
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
 
 html {
     font-size: 16px;
@@ -20,225 +17,209 @@ html {
 }
 
 body {
-    height: auto;
-    overflow: auto;
-    width: auto;
+    font-size: 1em; 
     
 }
 
-/* HEADER AREA */
+body {
+    align-items: center;
+    display: flex;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    justify-content: center;
+    
+}
 
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #4d4d4d;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: 0.75em;
+}
+
+p {
+	font-size: 0.875em;
+	line-height: 1.3125em;
+    padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
 header {
-    background-color: #ffffff;
-    height: 35%;
-    width: 100%;
+    align-items: center;
+    border-bottom: 3px solid #77a466;
+    display: flex;
+	height: 110px;
+    justify-content: center; 
+	margin: 0 auto;
     
 }
 
-header img {
-    border-color: #5a804d;
-    border-style: solid;
-    border-width: 3px 0px 3px 0px;
-    display: block;
-    margin: 0 auto 0 auto;
-    
+header h1 {
+	float: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #77a466;
 }
 
-#header-halfwidth2 ul li a {
-    color: #269900;
-    text-decoration: none;
-    
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 0.875em;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
 }
 
-#header-halfwidth2 ul li a:hover{
+header nav ul li a:hover{
     color: #5ee830;
     
 }
 
-.half-width {
-    margin: 40px;
-    
-}
-
-.first-h1 {
-    color: #4d9933;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: bolder;
-    padding: 0px 0px 0px 0px;
-    
-}
-
-#header-halfwidth1, #header-halfwidth2 {
-    height: 60px;
-    float: left;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 40px;
-    padding: 0px 10px 20px 117px;
-    text-align: left;
-    width: 430px;
-    
-}
-
-.header-text-style {
-    font-size: 72px;
-    line-height: 80px;
-    padding: 0px 0px 0px 80px;
-    
-}
-
-nav {
-    height: 60px;
-    padding: 0px 0px 0px 5px;
-    width: 560px
-    
-}
-
-.nav-list-items {
-    float: left;
-    font-family: 'Montserrat', sans-serif;
-    list-style-type: none;
-    margin-left: 16px;
-
-}
-
-nav ul li a {
-    font-size: 15px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: uppercase;
-
-}
-
-/* ABOUT AREA */
-
-#about {
-    height: 40%;
-    padding: 20px 157px 20px 157px;
-    
-}
-
-#about p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
-    line-height: 23px;
-    
-}
-
-#about h2 {
-    color: #4d9933;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 50px; 
-    
-}
-
-/* THIRDS AREA with the menu, reviews, and contact sections */
-
-#thirds-area {
-    border-bottom: 3px solid #d9d9d9;
-    border-top: 3px solid #d9d9d9;
-    height: 250px;
-    margin: 0px auto 0px auto;
-    width: 1200px;
-    
-}
-
-
-.third-width {
-    float: left;
-    height: 250px;
-    text-align: left;
-    width: 398px
-    
-}
-
-#menu h3 {
-    padding: 10px 0 0 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    
-}
-
-#menu p {
-    color: #47a329;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 40px;
-    
-}
-
-#reviews {
-    border-left: 3px solid #d9d9d9;
-    border-right: 3px solid #d9d9d9;
-    
-}
-
-#reviews h3 {
-    padding: 10px 10px 0 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    
-}
-
-#reviews p {
-    padding: 0 0 0 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-#contact h3 {
-    padding: 10px 10px 0 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: left;
-    
-}
-
-#contact p {
-    padding: 0 10px 0 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 35px;
-}
-
-#contact iframe {
-    left: 230px;
-    position: relative;
-    bottom: 150px;
-    
-}
-
-/* FOOTER AREA */
-
-#footer1 {
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+    align-items: center;
     clear: both;
-    height: 5.4em;
-    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+	margin: 0 auto;
     
 }
 
-#footer-text {
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    text-align: center;
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+    color: #737373;
+	padding: 0;
+	font-size: 1em;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding: 10px 0;
     
 }
 
-.cursive-green {
-    font-family: 'Allura', cursive;
-    font-size: 22px;
+.section-one li:hover{
+    color: #5ee830;
     
 }
 
-/* MISC. AREA */
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
 
-.arrow-size {
-    padding: 0 0 0 1250px;
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
     
+}
+
+.section-two p,
+.section-three p {
+	color: #737373;
+    
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+footer {
+    align-items: center;
+    border-top: 3px solid #eee;
+	clear: both;
+    display: flex;
+	height: 50px;
+    justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+    
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
 }
