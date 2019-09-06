@@ -200,13 +200,26 @@ header nav ul li a:hover{
     
 }
 
+.section-three{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    
+}
+
+.contact-div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
 .mapiframe{
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-flow: row nowrap; 
-    padding: 0 0 2px 0;
-
+    padding: 15px 0 10px 0;
+    
 }
 
 .menu {
@@ -216,7 +229,7 @@ header nav ul li a:hover{
     
 }
 .menu li {
-	padding: 10px 0;
+	padding: 8px 0;
 	color: #658f56;
     
 }
@@ -279,18 +292,23 @@ footer span {
     }  
     
     .section-one,
-    .section-two, 
-    .section-three {
+    .section-two{
     border-top: none;
-    flex-basis: 30%; 
+    flex-basis: 25%; 
 
     }
     
     .section-two{
     border-left: 1px solid #d9d9d9;
 	border-right: 1px solid #d9d9d9;
-    padding: 0 20px;
+    padding: 0 15px 0 15px;
         
+    }
+    
+    .section-three {
+    border-top: none;
+    flex-basis: 35%; 
+
     }
 
     
@@ -305,7 +323,7 @@ footer span {
     }
     
     header h1{
-        width: 30%;
+        width: 40%;
         padding 0;
         border-bottom: none;
         text-align: left;
@@ -326,10 +344,6 @@ footer span {
         display: flex;
         justify-content: space-between; 
     }
-    
-    .mapiframe{
-    justify-content: flex-start;
-
 
 }
     
