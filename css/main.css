@@ -203,8 +203,9 @@ header nav ul li a:hover{
 
 .mapiframe{
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap; 
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow: row nowrap; 
     padding: 0 0 2px 0;
 
 }
@@ -279,16 +280,11 @@ footer span {
     }  
     
     .section-one,
-    .section-two {
+    .section-two, 
+    .section-three {
     border-top: none;
-    flex-basis: 25%; 
+    flex-basis: 30%; 
 
-    }
-    
-    .section-three{
-     flex-basis: 30%; 
-     border: none;
-        
     }
     
     .section-two{
