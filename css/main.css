@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif;
 @font-face{
 	font-family: 'Wisdom Script';
 	src: url('../fonts/wisdom-script.otf') format('opentype');
+    
 }
 
 @media all and (min-width: 768px) {
@@ -27,9 +28,9 @@ html {
 }
 
 body {
-    align-items: center;
-    /*display: flex;*/
-    flex-flow: column wrap;
+    /*align-items: center;
+    display: flex;
+    flex-flow: column wrap;*/
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 1em; 
     width: 100%;
@@ -39,51 +40,68 @@ body {
 .container{
     align-items: center;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
     width: 90%;
+    
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
 	color: #4d4d4d;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 900;
 }
+
 h1 {
 	font-size: 1.875em;
+    
 }
+
 h2 {
     font-size: 1.5em;
+    
 }
+
 h3 {
 	font-size: 1.125em;
+    
 }
+
 h4 {
 	font-size: 0.75em;
+    
 }
 
 p {
+    color: #4d4d4d;
 	font-size: 0.875em;
 	line-height: 1.3125em;
     /*padding: 0 1.875em;*/
+    
 }
 
 /*The widths are in a percentage!*/
 header {
-    align-items: flex-start; 
-    border-bottom: 3px solid #658f56;
+    align-items: center;
     display: flex;
-    flex-flow: column wrap; 
-	height: 110px;
+    flex-flow: row wrap;
     justify-content: center;
+    border-bottom: 3px solid #658f56;
+	height: 300px;
 	margin: 0 auto;
-    width: 90%; 
+    width: 90%;
     
+}
+
+.header-div {
+    border-bottom: 3px solid #77a466;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
+
 }
 
 header h1 {
@@ -91,31 +109,36 @@ header h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
 	margin: 0;
-	padding: 38px 0;
+	padding: 16px 0;
+    
 }
 header h1 span {
 	color: #77a466;
+    
 }
 
 header nav {
-	float: right;
-	padding: 46px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+	/*padding: 46px 0;*/
+
+    
 }
 header nav ul {
-    align-items: center; 
-    display: flex;
-    flex-flow: column wrap; 
-    justify-content: center; 
+    line-height: 2em; 
 	margin: 0;
 	padding: 0;
+    
 }
 header nav ul li {
 	text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+	/*padding: 0 10px;*/
+	/*display: inline;*/
+    display: block;
     
 }
 header nav ul li a{
@@ -132,7 +155,6 @@ header nav ul li a:hover{
 .top-section,
 .bottom-section {
     align-items: center;
-    clear: both;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -144,43 +166,49 @@ header nav ul li a:hover{
 .main-image {
 	height: auto;
 	float: left;
+    
 }
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
+    
 }
 
 .main-title {
 	height: auto;
 	float: left;
+    
 }
 .main-title h3 {
     font-family: 'Montserrat', sans-serif;
 	text-align: left;
 	padding: 5px 0;
 	color: #658f56;
+    
 }
 .main-title p {
     color: #737373;
 	padding: 0;
 	font-size: 1em;
 	line-height: 25px;
+    
 }
 
 .section-one,
 .section-two,
 .section-three {
-	/*width: 33%;*/
+	/*width: 33%;
     align-items: flex-start;
-    justify-content: flex-start; 
+    justify-content: flex-start;*/
     width: 100%; 
 	height: auto;
-	float: left;
+	/*float: left;*/
 	border-top: 1px solid #d9d9d9;
+    
 }
 
 .section-one h4 {
-    font-weight: 700;
+    font-weight: 800;
 	/*padding: 10px 30px;*/
     
 }
@@ -203,7 +231,7 @@ header nav ul li a:hover{
 
 .section-two h4,
 .section-three h4 {
-    font-weight: 700;
+    font-weight: 800;
 	/*padding: 10px 30px;*/
     
 }
@@ -215,10 +243,10 @@ header nav ul li a:hover{
 }
 
 .mapiframe{
-    align-content: flex-start; 
+    align-content: center; 
     display: flex;
     flex-flow: row wrap; 
-    justify-content: flex-end;
+    justify-content: center;
     padding: 0 0 5px 0; 
     margin: 0 auto; 
     
@@ -232,17 +260,20 @@ header nav ul li a:hover{
 .menu li {
 	padding: 5px 0 5px 0;
 	color: #658f56;
+    
 }
 
 .reviews {
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
+    
 }
 
 .address {
 	font-size: 1em;
 	line-height: 24px;
+    
 }
 
 /*The widths are in a percentage!*/
@@ -252,7 +283,7 @@ footer {
 	clear: both;
     display: flex;
     flex-flow: row wrap;
-    font-weight: 800;
+    font-weight: 900;
 	height: 50px;
     justify-content: center;
 	margin: 0 auto;
@@ -260,6 +291,7 @@ footer {
     width: 90%; 
     
 }
+
 footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
